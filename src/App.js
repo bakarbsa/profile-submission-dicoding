@@ -2,6 +2,12 @@ function App() {
   // Cloud Storage Url
   const pp = 'https://storage.googleapis.com/dicoding-submission-bakar/pp1.jpg';
   const cv = 'https://storage.googleapis.com/dicoding-submission-bakar/Abu%20Bakar%20BSA_CV.pdf';
+  const firebase = 'https://storage.googleapis.com/dicoding-submission-bakar/firebase.png';
+  const flutter = 'https://storage.googleapis.com/dicoding-submission-bakar/flutter.png';
+  const mongo = 'https://storage.googleapis.com/dicoding-submission-bakar/mongo.png';
+  const react = 'https://storage.googleapis.com/dicoding-submission-bakar/react.png';
+  const vue = 'https://storage.googleapis.com/dicoding-submission-bakar/vue.png';
+  const nodejs = 'https://storage.googleapis.com/dicoding-submission-bakar/nodejs.png';
   return (
     <div className="App">
       <div className="h-screen bg-black bg flex flex-col justify-center items-center">
@@ -53,25 +59,25 @@ function App() {
               <div className="flex flex-col items-center justify-center w-min">
                 <p className="text-gray-500 font-semibold mb-2">Flutter</p>
                 <div className="w-16 h-16 overflow-hidden">
-                  <img src="https://www.eudeka.id/wp-content/uploads/sites/1/2021/04/flutter-logo-sharing-1.png" alt="" />
+                  <img src={flutter} alt="" />
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center w-min">
                 <p className="text-gray-500 font-semibold mb-2">ReactJS</p>
                 <div className="w-16 h-16 overflow-hidden">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="" />
+                  <img src={react} alt="" />
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center w-min">
                 <p className="text-gray-500 font-semibold mb-2">VueJS</p>
                 <div className="w-16 h-16 overflow-hidden">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png" alt="" />
+                  <img src={vue} alt="" />
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center w-min">
                 <p className="text-gray-500 font-semibold mb-2">MongoDB</p>
                 <div className="w-16 h-16 overflow-hidden">
-                  <img src="https://www.nurulfikri.com/wp-content/uploads/2020/02/MongoDB-mdb.png" alt="" />
+                  <img src={mongo} alt="" />
                 </div>
               </div>
             </div>
@@ -79,13 +85,13 @@ function App() {
               <div className="flex flex-col items-center justify-center w-min">
                 <p className="text-gray-500 font-semibold mb-2">Firebase</p>
                 <div className="w-16 h-16 overflow-hidden">
-                  <img src="https://www.gstatic.com/devrel-devsite/prod/ve6ddf5bcead12ab16e41f3889a7fb0a07adddfafd7d99eb46840573a68200f4e/firebase/images/touchicon-180.png" alt="" />
+                  <img src={firebase} alt="" />
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center w-min">
                 <p className="text-gray-500 font-semibold mb-2">NodeJS</p>
                 <div className="w-16 h-16 overflow-hidden">
-                  <img className="object-cover" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="" />
+                  <img className="object-cover" src={nodejs} alt="" />
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center w-min">
